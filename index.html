@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Whatsapp Web Clone</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+</head>
+<body>
+    <div class="container">
+        <aside class="sidebar">
+            <div class="toolbar-container">
+                <img class="user-photo" src="imagens/avatar1.png" alt="">
+                <div class="auxiicons-toolbar-container">
+                     <i class="fas"><span class="material-symbols-outlined icone1" >
+                    rotate_right
+                    </span></i>
+                    <i class="span"><span class="material-symbols-outlined icone 2">
+                    chat
+                    </span></i>
+                    <i class="span"><span class="material-symbols-outlined icone 3">
+                    more_vert
+                    </span></i>
+                </div>
+            </div>
+            <div class="notification-container">
+                <i class="fas"><span class="material-symbols-outlined">
+                    notifications_off
+                    </span>
+                </i>
+                <p class="receive-notification">Receba notificações de novas mensagens</p>
+                <p class="activate-notification">Ativar notificações na área de trabalho <i class="fas"><span class="material-symbols-outlined">
+                chevron_right
+                </span></i>
+                </p>
+            </div>
+            <div class="search-container">
+                <i id="contact-search" class="fas">
+                    <span class="material-symbols-outlined">
+                        search
+                    </span>
+                </i>
+                <input type="text" name="search" id="search" placeholder="Procurar ou começar uma nova conversa">
+            </div>
+            <div class="contacts-container">
+                <div class="contact-box active-chat">
+                    <img src="imagens/avatar2.png" alt="">
+                    <div class="user-info">
+                        <p class="user-name">Sabrina Matos</p>
+                        <p class="user-messagepreview"><i class="fas"><span class="material-symbols-outlined">
+                            done_all
+                            </span></i>Oi, tudo bem?</p>
+                    </div>
+                    <div class="message-info">
+                        <p class="message-time">22:40</p>
+                        <p class="message-pending">3</p>
+                    </div>
+                </div>
+                <div class="contact-box">
+                    <img src="imagens/avatar3.png" alt="">
+                    <div class="user-info">
+                        <p class="user-name">João Augusto</p>
+                        <p class="user-messagepreview">Está disponível para um freela?</p>
+                    </div>
+                    <div class="message-info">
+                        <p class="message-time">12:30</p>
+                        <p class="message-pending">3</p>
+                    </div>
+                </div>
+                <div class="contact-box">
+                    <img src="imagens/avatar4.png" alt="">
+                    <div class="user-info">
+                        <p class="user-name">Maria Silva</p>
+                        <p class="user-messagepreview">O projeto ficou perfeito, obrigada!</p>
+                    </div>
+                    <div class="message-info">
+                        <p class="message-time">08:20</p>
+                        <p class="message-pending">5</p>
+                    </div>
+                </div>
+            </div>
+        </aside>
+        <main class="chat-container">
+            <nav class="chat-navbar">
+                <div class="contactinfo-container">
+                    <img src="imagens/avatar2.png" alt="">
+                    <p class="user-name"> Sabrina Matos</p>
+                </div>
+                <ul class="chattools-container">
+                    <li class="fas">
+                        <i><span class="material-symbols-outlined">
+                        search</span></i>
+                    </li>
+                    <li class="fas">
+                        <i><span class="material-symbols-outlined">
+                            attach_file
+                        </span></i>
+                    </li>
+                    <li class="fas">
+                        <i><span class="material-symbols-outlined">
+                        more_vert</span></i>
+                    </li>
+                </ul>
+            </nav>
+            <div class="messages-container">
+                <div class="bg-image"></div>
+                <div class="chat-message">
+                    <p class="guest-message">Olá, bom dia</p>
+                    <p class="user-messsage">Oi, tudo bem?</p>
+                </div>
+            </div>
+            <div class="sendmessage-container">
+                <i class="fas"><span class="material-symbols-outlined">
+                    mood
+                </span></i>
+                <input type="text" name="message" class="userinput" id="chatmessage" placeholder="Digite uma mensagem">
+                <i class="fas"><span class="material-symbols-outlined">
+                    mic
+                </span></i>
+            </div>
+        </main>
+    </div>    
+</body>
+</html>
